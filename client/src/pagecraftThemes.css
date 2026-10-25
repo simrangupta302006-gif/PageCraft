@@ -1,0 +1,828 @@
+.portfolio-preview {
+  background: var(--background-color, #f8fafc);
+  color: var(--text-color, #0f172a);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.portfolio-preview .block-content {
+  color: var(--text-color, #0f172a);
+}
+
+.portfolio-preview button {
+  border-radius: var(--portfolio-radius, 16px);
+}
+
+.portfolio-preview a {
+  color: var(--primary-color, #2563eb);
+}
+
+.pagecraft-theme-developer {
+  font-family: Inter, sans-serif;
+}
+
+.pagecraft-theme-creative {
+  font-family: Poppins, sans-serif;
+}
+
+.pagecraft-theme-student {
+  font-family: Inter, sans-serif;
+}
+
+.pagecraft-theme-professional {
+  font-family: Inter, sans-serif;
+}
+
+.pagecraft-theme-minimal {
+  font-family: Inter, sans-serif;
+}
+
+.pagecraft-theme-startup {
+  font-family: Poppins, sans-serif;
+}
+
+.pagecraft-theme-developer .portfolio-block {
+  border-radius: var(--portfolio-radius);
+}
+
+.pagecraft-theme-creative .portfolio-block {
+  border-radius: var(--portfolio-radius);
+}
+
+.pagecraft-theme-student .portfolio-block {
+  border-radius: var(--portfolio-radius);
+}
+
+.pagecraft-theme-professional .portfolio-block {
+  border-radius: var(--portfolio-radius);
+}
+
+.pagecraft-theme-minimal .portfolio-block {
+  border-radius: var(--portfolio-radius);
+}
+
+.pagecraft-theme-startup .portfolio-block {
+  border-radius: var(--portfolio-radius);
+}
+
+.pagecraft-theme-developer .block-button {
+  background: var(--primary-color);
+  color: #ffffff;
+}
+
+.pagecraft-theme-creative .block-button {
+  background: var(--primary-color);
+  color: #ffffff;
+}
+
+.pagecraft-theme-student .block-button {
+  background: var(--primary-color);
+  color: #ffffff;
+}
+
+.pagecraft-theme-professional .block-button {
+  background: var(--primary-color);
+  color: #ffffff;
+}
+
+.pagecraft-theme-minimal .block-button {
+  background: var(--primary-color);
+  color: #ffffff;
+}
+
+.pagecraft-theme-startup .block-button {
+  background: var(--primary-color);
+  color: #ffffff;
+}
+
+.pagecraft-theme-developer .block-title {
+  color: var(--primary-color);
+}
+
+.pagecraft-theme-creative .block-title {
+  color: var(--primary-color);
+}
+
+.pagecraft-theme-student .block-title {
+  color: var(--primary-color);
+}
+
+.pagecraft-theme-professional .block-title {
+  color: var(--primary-color);
+}
+
+.pagecraft-theme-minimal .block-title {
+  color: var(--primary-color);
+}
+
+.pagecraft-theme-startup .block-title {
+  color: var(--primary-color);
+}
+
+.pagecraft-theme-developer .block-card,
+.pagecraft-theme-creative .block-card,
+.pagecraft-theme-student .block-card,
+.pagecraft-theme-professional .block-card,
+.pagecraft-theme-minimal .block-card,
+.pagecraft-theme-startup .block-card {
+  background: var(--surface-color);
+  color: var(--text-color);
+  border-radius: var(--portfolio-radius);
+}
+
+.template-preview {
+  background: var(--template-background);
+  color: var(--template-text);
+  overflow: hidden;
+}
+
+.template-preview-hero {
+  background: var(--template-surface);
+  color: var(--template-text);
+}
+
+.template-preview-blue {
+  background: var(--template-primary);
+  color: #ffffff;
+}
+
+.template-preview-dark {
+  background: var(--template-secondary);
+  color: #ffffff;
+}
+
+.template-preview-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--template-primary),
+    var(--template-secondary)
+  );
+  color: #ffffff;
+}
+
+.template-preview-teal {
+  background: var(--template-primary);
+  color: #ffffff;
+}
+
+.template-preview-minimal {
+  background: var(--template-surface);
+  color: var(--template-text);
+  border-bottom: 1px solid var(--template-text);
+}
+
+.template-preview-orange {
+  background: var(--template-primary);
+  color: #ffffff;
+}
+
+.template-preview-small {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  opacity: 0.75;
+}
+
+.template-preview-name {
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-top: 8px;
+}
+
+.template-preview-role {
+  font-size: 11px;
+  margin-top: 7px;
+  opacity: 0.8;
+}
+
+.template-preview-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+  padding: 7px 13px;
+  border-radius: 999px;
+  background: #ffffff;
+  color: var(--template-secondary);
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.template-preview-section {
+  background: var(--template-surface);
+  color: var(--template-text);
+}
+
+.template-preview-title {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.template-preview-line {
+  width: 85%;
+  height: 5px;
+  margin-top: 9px;
+  border-radius: 999px;
+  background: var(--template-muted);
+  opacity: 0.25;
+}
+
+.template-preview-line.short {
+  width: 55%;
+}
+
+.template-preview-skills span {
+  background: var(--template-primary);
+}
+.pagecraft-theme-developer .hero-block {
+  background: #0f172a;
+  color: #ffffff;
+}
+
+.pagecraft-theme-developer .hero-block .block-label {
+  color: #93c5fd;
+}
+
+.pagecraft-theme-developer .hero-block .hero-name,
+.pagecraft-theme-developer .hero-block .hero-role,
+.pagecraft-theme-developer .hero-block .hero-description,
+.pagecraft-theme-developer .hero-block .hero-button {
+  color: #ffffff;
+}
+
+.pagecraft-theme-developer .hero-block .hero-button {
+  background: #2563eb;
+}
+
+.pagecraft-theme-creative .hero-block {
+  background: linear-gradient(135deg, #c026d3, #581c87);
+  color: #ffffff;
+}
+
+.pagecraft-theme-creative .hero-block .block-label {
+  color: #f5d0fe;
+}
+
+.pagecraft-theme-creative .hero-block .hero-name,
+.pagecraft-theme-creative .hero-block .hero-role,
+.pagecraft-theme-creative .hero-block .hero-description,
+.pagecraft-theme-creative .hero-block .hero-button {
+  color: #ffffff;
+}
+
+.pagecraft-theme-creative .hero-block .hero-button {
+  background: #ffffff;
+  color: #86198f;
+}
+
+.pagecraft-theme-student .hero-block {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.pagecraft-theme-student .hero-block .block-label {
+  color: #dbeafe;
+}
+
+.pagecraft-theme-student .hero-block .hero-name,
+.pagecraft-theme-student .hero-block .hero-role,
+.pagecraft-theme-student .hero-block .hero-description,
+.pagecraft-theme-student .hero-block .hero-button {
+  color: #ffffff;
+}
+
+.pagecraft-theme-student .hero-block .hero-button {
+  background: #ffffff;
+  color: #1e3a8a;
+}
+
+.pagecraft-theme-professional .hero-block {
+  background: #0f766e;
+  color: #ffffff;
+}
+
+.pagecraft-theme-professional .hero-block .block-label {
+  color: #ccfbf1;
+}
+
+.pagecraft-theme-professional .hero-block .hero-name,
+.pagecraft-theme-professional .hero-block .hero-role,
+.pagecraft-theme-professional .hero-block .hero-description,
+.pagecraft-theme-professional .hero-block .hero-button {
+  color: #ffffff;
+}
+
+.pagecraft-theme-professional .hero-block .hero-button {
+  background: #ffffff;
+  color: #134e4a;
+}
+
+.pagecraft-theme-minimal .hero-block {
+  background: #ffffff;
+  color: #171717;
+  border-bottom: 2px solid #171717;
+}
+
+.pagecraft-theme-minimal .hero-block .block-label {
+  color: #737373;
+}
+
+.pagecraft-theme-minimal .hero-block .hero-name,
+.pagecraft-theme-minimal .hero-block .hero-role,
+.pagecraft-theme-minimal .hero-block .hero-description,
+.pagecraft-theme-minimal .hero-block .hero-button {
+  color: #171717;
+}
+
+.pagecraft-theme-minimal .hero-block .hero-button {
+  background: #171717;
+  color: #ffffff;
+}
+
+.pagecraft-theme-startup .hero-block {
+  background: linear-gradient(135deg, #ea580c, #431407);
+  color: #ffffff;
+}
+
+.pagecraft-theme-startup .hero-block .block-label {
+  color: #fed7aa;
+}
+
+.pagecraft-theme-startup .hero-block .hero-name,
+.pagecraft-theme-startup .hero-block .hero-role,
+.pagecraft-theme-startup .hero-block .hero-description,
+.pagecraft-theme-startup .hero-block .hero-button {
+  color: #ffffff;
+}
+
+.pagecraft-theme-startup .hero-block .hero-button {
+  background: #ffffff;
+  color: #9a3412;
+}
+
+.portfolio-preview .hero-block .hero-name,
+.portfolio-preview .hero-block .hero-role,
+.portfolio-preview .hero-block .hero-description,
+.portfolio-preview .hero-block .hero-button {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.portfolio-preview .hero-block .hero-name {
+  font-size: 52px;
+  font-weight: 800;
+}
+
+.portfolio-preview .hero-block .hero-role {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.portfolio-preview .hero-block .hero-description {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.portfolio-preview .hero-block .hero-button {
+  min-width: 220px;
+  padding: 14px 24px;
+  border-radius: 999px;
+  font-weight: 700;
+  cursor: text;
+}
+
+.portfolio-preview .hero-block .block-label {
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+.pagecraft-theme-developer .about-block,
+.pagecraft-theme-developer .skills-block,
+.pagecraft-theme-developer .projects-block,
+.pagecraft-theme-developer .experience-block,
+.pagecraft-theme-developer .contact-block {
+  background: #ffffff;
+  color: #0f172a;
+}
+
+.pagecraft-theme-creative .about-block,
+.pagecraft-theme-creative .skills-block,
+.pagecraft-theme-creative .projects-block,
+.pagecraft-theme-creative .experience-block,
+.pagecraft-theme-creative .contact-block {
+  background: #ffffff;
+  color: #3b0764;
+}
+
+.pagecraft-theme-student .about-block,
+.pagecraft-theme-student .skills-block,
+.pagecraft-theme-student .projects-block,
+.pagecraft-theme-student .experience-block,
+.pagecraft-theme-student .contact-block {
+  background: #ffffff;
+  color: #172554;
+}
+
+.pagecraft-theme-professional .about-block,
+.pagecraft-theme-professional .skills-block,
+.pagecraft-theme-professional .projects-block,
+.pagecraft-theme-professional .experience-block,
+.pagecraft-theme-professional .contact-block {
+  background: #ffffff;
+  color: #134e4a;
+}
+
+.pagecraft-theme-minimal .about-block,
+.pagecraft-theme-minimal .skills-block,
+.pagecraft-theme-minimal .projects-block,
+.pagecraft-theme-minimal .experience-block,
+.pagecraft-theme-minimal .contact-block {
+  background: #ffffff;
+  color: #171717;
+}
+
+.pagecraft-theme-startup .about-block,
+.pagecraft-theme-startup .skills-block,
+.pagecraft-theme-startup .projects-block,
+.pagecraft-theme-startup .experience-block,
+.pagecraft-theme-startup .contact-block {
+  background: #ffffff;
+  color: #431407;
+}
+
+.portfolio-preview .about-block,
+.portfolio-preview .skills-block,
+.portfolio-preview .projects-block,
+.portfolio-preview .experience-block,
+.portfolio-preview .contact-block {
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.portfolio-preview .section-content {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.portfolio-preview .block-label {
+  color: var(--primary-color);
+}
+
+.portfolio-preview .section-title {
+  color: var(--text-color);
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.portfolio-preview .section-description {
+  color: var(--muted-color);
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.portfolio-preview .subsection-input {
+  color: var(--text-color);
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.pagecraft-theme-developer .section-title {
+  color: #0f172a;
+}
+
+.pagecraft-theme-creative .section-title {
+  color: #86198f;
+}
+
+.pagecraft-theme-student .section-title {
+  color: #1e3a8a;
+}
+
+.pagecraft-theme-professional .section-title {
+  color: #0f766e;
+}
+
+.pagecraft-theme-minimal .section-title {
+  color: #171717;
+}
+
+.pagecraft-theme-startup .section-title {
+  color: #ea580c;
+}
+
+.pagecraft-theme-developer .block-label,
+.pagecraft-theme-developer .section-title {
+  font-family: Inter, sans-serif;
+}
+
+.pagecraft-theme-creative .block-label,
+.pagecraft-theme-creative .section-title {
+  font-family: Poppins, sans-serif;
+}
+
+.pagecraft-theme-startup .block-label,
+.pagecraft-theme-startup .section-title {
+  font-family: Poppins, sans-serif;
+}
+.editor-workspace.preview-mode {
+  display: block;
+  background: #ffffff;
+}
+
+.editor-workspace.preview-mode .editor-sidebar,
+.editor-workspace.preview-mode .editor-settings,
+.editor-workspace.preview-mode .canvas-header,
+.editor-workspace.preview-mode .drag-handle,
+.editor-workspace.preview-mode .block-toolbar,
+.editor-workspace.preview-mode .drop-zone {
+  display: none;
+}
+
+.editor-workspace.preview-mode .editor-canvas {
+  width: 100%;
+  max-width: none;
+  padding: 0;
+  background: #ffffff;
+}
+
+.editor-workspace.preview-mode .portfolio-preview {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  box-shadow: none;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.editor-workspace.preview-mode .portfolio-blocks {
+  width: 100%;
+}
+
+.editor-workspace.preview-mode .sortable-block {
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+}
+
+.editor-workspace.preview-mode .pagecraft-block {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.editor-workspace.preview-mode input,
+.editor-workspace.preview-mode textarea {
+  pointer-events: none;
+  resize: none;
+  cursor: default;
+}
+
+.editor-workspace.preview-mode .hero-name,
+.editor-workspace.preview-mode .hero-role,
+.editor-workspace.preview-mode .hero-description,
+.editor-workspace.preview-mode .hero-button,
+.editor-workspace.preview-mode .section-title,
+.editor-workspace.preview-mode .section-description,
+.editor-workspace.preview-mode .subsection-input {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.editor-workspace.preview-mode .hero-name {
+  text-align: center;
+}
+
+.editor-workspace.preview-mode .hero-role {
+  text-align: center;
+}
+
+.editor-workspace.preview-mode .hero-description {
+  text-align: center;
+}
+
+.editor-workspace.preview-mode .section-title,
+.editor-workspace.preview-mode .section-description,
+.editor-workspace.preview-mode .subsection-input {
+  cursor: default;
+}
+
+.editor-workspace.preview-mode .hero-block {
+  min-height: 600px;
+}
+
+.editor-workspace.preview-mode .about-block,
+.editor-workspace.preview-mode .skills-block,
+.editor-workspace.preview-mode .projects-block,
+.editor-workspace.preview-mode .experience-block,
+.editor-workspace.preview-mode .contact-block {
+  min-height: 400px;
+}
+
+.editor-workspace.preview-mode .section-content {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.editor-workspace.preview-mode .hero-content {
+  max-width: 850px;
+  margin: 0 auto;
+}
+.pagecraft-theme-developer .hero-block,
+.pagecraft-theme-creative .hero-block,
+.pagecraft-theme-student .hero-block,
+.pagecraft-theme-professional .hero-block,
+.pagecraft-theme-minimal .hero-block,
+.pagecraft-theme-startup .hero-block {
+  min-height: 560px;
+}
+
+.pagecraft-theme-developer .about-block,
+.pagecraft-theme-developer .projects-block {
+  background: #eaf3ff;
+  color: #0f172a;
+}
+
+.pagecraft-theme-developer .skills-block,
+.pagecraft-theme-developer .experience-block {
+  background: #ffffff;
+  color: #0f172a;
+}
+
+.pagecraft-theme-developer .contact-block {
+  background: #0f172a;
+  color: #ffffff;
+}
+
+.pagecraft-theme-developer .contact-block .section-title,
+.pagecraft-theme-developer .contact-block .section-description,
+.pagecraft-theme-developer .contact-block .subsection-input {
+  color: #ffffff;
+}
+
+.pagecraft-theme-creative .about-block,
+.pagecraft-theme-creative .projects-block {
+  background: #f9eaff;
+  color: #3b0764;
+}
+
+.pagecraft-theme-creative .skills-block,
+.pagecraft-theme-creative .experience-block {
+  background: #ffffff;
+  color: #3b0764;
+}
+
+.pagecraft-theme-creative .contact-block {
+  background: #581c87;
+  color: #ffffff;
+}
+
+.pagecraft-theme-creative .contact-block .section-title,
+.pagecraft-theme-creative .contact-block .section-description,
+.pagecraft-theme-creative .contact-block .subsection-input {
+  color: #ffffff;
+}
+
+.pagecraft-theme-student .about-block,
+.pagecraft-theme-student .projects-block {
+  background: #eaf3ff;
+  color: #172554;
+}
+
+.pagecraft-theme-student .skills-block,
+.pagecraft-theme-student .experience-block {
+  background: #ffffff;
+  color: #172554;
+}
+
+.pagecraft-theme-student .contact-block {
+  background: #1e3a8a;
+  color: #ffffff;
+}
+
+.pagecraft-theme-student .contact-block .section-title,
+.pagecraft-theme-student .contact-block .section-description,
+.pagecraft-theme-student .contact-block .subsection-input {
+  color: #ffffff;
+}
+
+.pagecraft-theme-professional .about-block,
+.pagecraft-theme-professional .projects-block {
+  background: #e8f8f6;
+  color: #134e4a;
+}
+
+.pagecraft-theme-professional .skills-block,
+.pagecraft-theme-professional .experience-block {
+  background: #ffffff;
+  color: #134e4a;
+}
+
+.pagecraft-theme-professional .contact-block {
+  background: #134e4a;
+  color: #ffffff;
+}
+
+.pagecraft-theme-professional .contact-block .section-title,
+.pagecraft-theme-professional .contact-block .section-description,
+.pagecraft-theme-professional .contact-block .subsection-input {
+  color: #ffffff;
+}
+
+.pagecraft-theme-minimal .about-block,
+.pagecraft-theme-minimal .projects-block {
+  background: #f1f1f1;
+  color: #171717;
+}
+
+.pagecraft-theme-minimal .skills-block,
+.pagecraft-theme-minimal .experience-block {
+  background: #ffffff;
+  color: #171717;
+}
+
+.pagecraft-theme-minimal .contact-block {
+  background: #171717;
+  color: #ffffff;
+}
+
+.pagecraft-theme-minimal .contact-block .section-title,
+.pagecraft-theme-minimal .contact-block .section-description,
+.pagecraft-theme-minimal .contact-block .subsection-input {
+  color: #ffffff;
+}
+
+.pagecraft-theme-startup .about-block,
+.pagecraft-theme-startup .projects-block {
+  background: #fff0e3;
+  color: #431407;
+}
+
+.pagecraft-theme-startup .skills-block,
+.pagecraft-theme-startup .experience-block {
+  background: #ffffff;
+  color: #431407;
+}
+
+.pagecraft-theme-startup .contact-block {
+  background: #431407;
+  color: #ffffff;
+}
+
+.pagecraft-theme-startup .contact-block .section-title,
+.pagecraft-theme-startup .contact-block .section-description,
+.pagecraft-theme-startup .contact-block .subsection-input {
+  color: #ffffff;
+}
+
+.portfolio-preview .pagecraft-block {
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+}
+
+.portfolio-preview .about-block,
+.portfolio-preview .skills-block,
+.portfolio-preview .projects-block,
+.portfolio-preview .experience-block,
+.portfolio-preview .contact-block {
+  min-height: 420px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.portfolio-preview .contact-block {
+  min-height: 460px;
+}
+
+.portfolio-preview .contact-block .block-label {
+  color: #93c5fd;
+}
+
+.pagecraft-theme-creative .contact-block .block-label {
+  color: #f5d0fe;
+}
+
+.pagecraft-theme-student .contact-block .block-label {
+  color: #bfdbfe;
+}
+
+.pagecraft-theme-professional .contact-block .block-label {
+  color: #99f6e4;
+}
+
+.pagecraft-theme-minimal .contact-block .block-label {
+  color: #d4d4d4;
+}
+
+.pagecraft-theme-startup .contact-block .block-label {
+  color: #fed7aa;
+}
